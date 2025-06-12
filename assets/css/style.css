@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layer{
+    background-image: url('../img/unnamed.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+    .quotes{
+ 
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 5rem;
+        color: white;
+    }
+   p{
+    font-size: 2.1875rem;
+    color:white;
+   }
+   button{
+    width: 15.625rem;
+    height: 5rem;
+    border: 3px solid white;
+    border-radius: 50px;
+    background-color: blue;
+    color: white;
+    transition: background-color 450ms;
+   }
+   button:hover{
+    background-color: #0078ff;
+   }
+   
+    
+}
+    
+}
