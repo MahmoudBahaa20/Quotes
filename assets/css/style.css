@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
 .layer{
     background-image: url('../img/unnamed.jpg');
     background-position: center;
